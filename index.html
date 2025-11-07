@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stress Level Checker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Stress Level Checker</h1>
+    <div id="quiz-box">
+      <p id="question">Loading question...</p>
+      <div class="buttons">
+        <button class="option" data-value="1">Never</button>
+        <button class="option" data-value="2">Sometimes</button>
+        <button class="option" data-value="3">Often</button>
+        <button class="option" data-value="4">Always</button>
+      </div>
+      <p id="progress"></p>
+    </div>
+    <div id="result-box" class="hidden">
+      <h2>Your Stress Result</h2>
+      <p id="result-text"></p>
+      <button id="restart">Take Again</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
